@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta charset = "UTF 8">
+
+<title>Formulario</title>
+
+</head>
+
+<body>
+
+<h1>Billetes de Viaje</h1>
+
+<form>
+
+<label for = "nombre">Nombre:</label>
+<input type = "text" name = "nombre" required>
+<br>
+<label for = "apellidos">Apellidos:</label>
+<input type = "text" name = "apellidos" required>
+<br>
+
+<label for = "correo">Correo Electrónico:</label>
+<input type = "email" name = "correo" required>
+<br>
+
+<label for = "origen">Origen</label>
+<select id = "origen" name = "origen">
+
+    <option value = "Lugones">Lugones</option>
+    <option value = "La Corredoria">La Corredoria</option>
+    <option value = "Oviedo">Oviedo</option>
+    <option value = "Llamaquique">Llamaquique</option>
+    <option value = "Villabona">Villabona</option>
+
+</select>
+
+<br>
+
+<label for = "destino">Destino</label>
+<select id = "destino" name = "destino">
+
+    <option value = "Lugones">Lugones</option>
+    <option value = "La Corredoria">La Corredoria</option>
+    <option value = "Oviedo">Oviedo</option>
+    <option value = "Llamaquique">Llamaquique</option>
+    <option value = "Villabona">Villabona</option>
+
+</select>
+
+<br>
+
+<label for = "Número de adultos">Numero de adultos</label>
+<input type = "number" name = "numeroAdultos" required>
+
+<br>
+
+<label for = "Número de niños">Numero de niños</label>
+<input type = "number" name = "numeroNiños" required>
+
+<br>
+
+<label for = "hora">Hora y minutos de partida</label> 
+<input type = "time" name = "hora" required>
+
+<br>
+
+<label for = "fecha">fecha</label> 
+<input type = "date" name = "fecha" required>
+
+<br>
+
+<label for = "Método de pago">Metodo de pago:</label> <br>
+<input type = "radio" name = "pago" value = "1"> Tarjeta
+<br>
+<input type = "radio" name = "pago" value = "2"> Bizum
+<br>
+<input type = "radio" name = "pago" value = "3"> Saldo
+<br>
+
+<input type = "reset" value = "Resetear Formulario">
+
+<input type = "submit" value = "Enviar">
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
